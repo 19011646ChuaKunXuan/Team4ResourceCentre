@@ -18,6 +18,7 @@ public class C206_CaseStudy {
         }
         
         //delete customer name
+        
         String dname = Helper.readString("Enter a customer name to delete > ");
         for (int s = 0; s < customer.size(); s++) {
         	if (dname.equals(name)) {
