@@ -16,7 +16,7 @@ public class C206_CaseStudy {
         for (int i = 0; i < customer.size(); i++) {
         	System.out.println(name);
         }
-        
+
         //delete customer name
         String dname = Helper.readString("Enter a customer name to delete > ");
         for (int s = 0; s < customer.size(); s++) {
