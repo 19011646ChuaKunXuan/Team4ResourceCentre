@@ -9,7 +9,7 @@ public class C206_CaseStudy {
 			String category = Helper.readString("Enter category of product (meat or veg?) > ");
 			double price = Helper.readDouble("Enter price of product > ");
 			String product1 = Helper.readString(productName);
-			productList.add(product1);
+			productList.add(product1); 
 			
 			// view product and category
 			for (int i = 0; i < productList.size(); i++) {
