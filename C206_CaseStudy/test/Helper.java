@@ -4,9 +4,7 @@ import java.util.*;
 
 public class Helper {
 
-  public static final String readString = null;
-
-@SuppressWarnings("resource")
+  @SuppressWarnings("resource")
   public static String readString(String prompt) {
     System.out.print(prompt);
     return new java.util.Scanner(System.in).nextLine();
