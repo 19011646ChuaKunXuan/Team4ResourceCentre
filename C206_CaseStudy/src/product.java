@@ -15,7 +15,7 @@
 			return productName;
 		}
 		
-		public String viewProduct() {
+		public String getProduct() {
 			return productName;
 		}
 		
@@ -27,7 +27,14 @@
 			return category;
 		}
 		
+		public String getCategory() {
+			return category;
+		}
+		
 		public double setPrice() {
+			return price;
+		}
+		public double getPrice() {
 			return price;
 		}
 	}
